@@ -21,7 +21,8 @@ int main() {
     At = (2 * Ac) + Al;
     // calcula o valor do custo;
     X = At * 100;
-    printf("O VALOR DO CUSTO E = %.2f", X);
+    printf("O VALOR DO CUSTO E = %.2f\n", X);
 
     return 0;
 }
+
