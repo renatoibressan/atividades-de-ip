@@ -19,7 +19,8 @@ int main() {
 
     // calcula o valor da distância;
     d = sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
-    printf("A DISTANCIA ENTRE A e B = %.2f", d);
+    printf("A DISTANCIA ENTRE A e B = %.2f\n", d);
 
     return 0;
+
 }
