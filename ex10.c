@@ -19,7 +19,8 @@ int main() {
     T = (l1 + l2 + l3)/2;
     // calcula o valor da área;
     A = sqrt(T * (T - l1) * (T - l2) * (T - l3));
-    printf("A AREA DO TRIANGULO E = %.2f", A);
+    printf("A AREA DO TRIANGULO E = %.2f\n", A);
 
     return 0;
+
 }
