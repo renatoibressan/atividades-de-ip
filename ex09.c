@@ -8,16 +8,16 @@ int main() {
     // printf("Entre com o valor de n: ");
     scanf("%lf", &n);
 
-    // atribui o valor de 10 ao multiplicador m;
+    // atribui os valores de 10, 100 e 1000 ao multiplicador m;
     m = 10;
 
     i = 0;
     for(i; i < 3; i++) {
         // multiplica o número por m;
         a = n * m;
-        // soma o produto a 0.5;
+        // soma o produto a 0.5 para fazer o arredondamento;
         b = a + 0.5;
-        // atribui o valor de b a outra variável
+        // remove a parte decimal;
         c = b;
         // obtém-se o número final;
         d = c/m;
@@ -27,4 +27,5 @@ int main() {
     }
 
     return 0;
+
 }
