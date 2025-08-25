@@ -5,14 +5,12 @@ int main() {
     int m, d;
     int X;
 
+    // printf("Entre com o valor de abc: ");
+    scanf("%d", &abc);
     // verifica se abc está no range [100, 999];
-    do {
-        // printf("Entre com o valor de abc: ");
-        scanf("%d", &abc);
-        if (abc < 100 || abc > 999) {
-            printf("Erro\n");
-        }
-    } while (abc < 100 || abc > 999);
+    if (abc < 100 || abc > 999) {
+        printf("Erro\n");
+    }
 
     // remove o último algarismo;
     ab = abc / 10;
@@ -31,4 +29,5 @@ int main() {
     printf("O NOVO NUMERO E = %d\n", X);
 
     return 0;
+
 }
