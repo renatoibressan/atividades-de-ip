@@ -9,7 +9,8 @@ int main() {
     // verifica se abc não é múltiplo de 10 e se está no range [100, 999];
     if (abc % 10 == 0 || abc < 100 || abc > 999) {
         printf("Erro\n");
-    } return 0;
+        return 0;
+    }
 
     // remove o último algarismo;
     ab = abc / 10;
@@ -26,5 +27,6 @@ int main() {
     return 0;
 
 }
+
 
 
