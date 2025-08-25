@@ -10,7 +10,7 @@ int main() {
     // verifica se abc está no range [100, 999];
     if (abc < 100 || abc > 999) {
         printf("Erro\n");
-    }
+    }  return 0;
 
     // remove o último algarismo;
     ab = abc / 10;
@@ -31,3 +31,4 @@ int main() {
     return 0;
 
 }
+
