@@ -4,7 +4,7 @@ int main() {
     int abc, ab, a, b, c;
     int cba;
 
-    // verifica se abc não é múltiplo de 10;
+    // verifica se abc não é múltiplo de 10 e se está no range [100, 999];
     do {
         // printf("Entre com o valor de abc: ");
         scanf("%d", &abc);
@@ -26,4 +26,5 @@ int main() {
     printf("%d", cba);
 
     return 0;
+
 }
