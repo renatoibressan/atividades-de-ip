@@ -4,14 +4,12 @@ int main() {
     int abc, ab, a, b, c;
     int cba;
 
+    // printf("Entre com o valor de abc: ");
+    scanf("%d", &abc);
     // verifica se abc não é múltiplo de 10 e se está no range [100, 999];
-    do {
-        // printf("Entre com o valor de abc: ");
-        scanf("%d", &abc);
-        if (abc % 10 == 0 || abc < 100 || abc > 999) {
-            printf("Erro\n");
-        }
-    } while (abc % 10 == 0 || abc < 100 || abc > 999);
+    if (abc % 10 == 0 || abc < 100 || abc > 999) {
+        printf("Erro\n");
+    }
 
     // remove o último algarismo;
     ab = abc / 10;
@@ -28,3 +26,4 @@ int main() {
     return 0;
 
 }
+
